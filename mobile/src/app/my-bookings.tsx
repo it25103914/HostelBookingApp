@@ -11,7 +11,7 @@ import {
 import { router, useFocusEffect } from 'expo-router';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = 'http://10.165.196.224:5000';
+const API_URL = 'https://hostel-booking-api-nl99.onrender.com';
 
 type Booking = {
   _id: string;

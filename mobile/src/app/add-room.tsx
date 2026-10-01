@@ -20,7 +20,7 @@ import * as ImagePicker from 'expo-image-picker';
 
 import { File } from 'expo-file-system';
 
-const API_URL = 'http://10.165.196.224:5000';
+const API_URL = 'https://hostel-booking-api-nl99.onrender.com';
 
 export default function AddRoomScreen() {
   const [roomNumber, setRoomNumber] = useState('');

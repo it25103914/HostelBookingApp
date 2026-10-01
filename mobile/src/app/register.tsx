@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { Link, router } from 'expo-router';
 
-const API_URL = 'http://10.165.196.224:5000';
+const API_URL = 'https://hostel-booking-api-nl99.onrender.com';
 
 export default function RegisterScreen() {
   const [name, setName] = useState('');
